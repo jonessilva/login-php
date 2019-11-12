@@ -1,1 +1,3 @@
-# login-php
+# login
+user admin
+pass admin
