@@ -1,0 +1,26 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!--<link rel="stylesheet" href="../_css/styleCadastro.css">-->
+    <title>Form </title>
+</head>
+
+<body>
+
+    <form class="box" enctype="multipart/form-data" action="../_php/salvarADM.php" method="post">
+        <h1>CADASTRO ADM</h1>
+        <input name="rm" type="text" placeholder="RM"></br>
+        <input name="nome" type="text" placeholder="Nome"><br>
+        <input name="login" type="text" placeholder="Login"><br>
+        <input name="senha" type="password" placeholder="Senha"><br>
+        <input name="email" type="text" placeholder="Email"><br>
+        <input name="nivel_acesso" type="hidden" value="2">
+        <input name="userfile" type="file">
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+
+</html>
